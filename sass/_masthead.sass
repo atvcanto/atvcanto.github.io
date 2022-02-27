@@ -14,36 +14,16 @@ section#masthead
 
     .logo-wrapper
         padding: 1em
-        @include breakpoint-down(small)
-            margin-top: 3.5em
-        @include breakpoint-up(medium)
-            margin-top: 8em
-            @media ( min-height: 201px ) and (max-height: 400px)
-                //background: orange
-                margin-top: 40px
-            @media ( min-height: 401px ) and (max-height: 600px)
-                //background: green
-                margin-top: 65px
-            @media ( min-height: 601px )
-                //background: pink
-                margin-top: 120px
+        
+
             
     .btn-wrapper
-        max-width: 25em
+        max-width: 25rem
         display: flex
         flex-direction: column
-        padding: 1em
+        padding: 1rem
         text-align: center
-        @include breakpoint-up(medium)
-            @media ( min-height: 201px ) and (max-height: 400px)
-                //background: orange
-                margin-top: 62px
-            @media ( min-height: 401px ) and (max-height: 600px)
-                //background: green
-                margin-top: 100px
-            @media ( min-height: 601px )
-                //background: pink
-                margin-top: 165px
+
 
     h1.logo-abbr
         font-family: 'Barlow Semi Condensed', sans-serif
@@ -77,9 +57,52 @@ body#home section#masthead
     min-height: calc( 100vh - 50px )
     margin-top: 46px
 
+    .logo-wrapper
+        padding: 1em
+        @include breakpoint-down(small)
+            margin-top: 3.5em
+        @include breakpoint-up(medium)
+            margin-top: 8em
+            @media ( min-height: 201px ) and (max-height: 400px)
+                //background: orange
+                margin-top: 40px
+            @media ( min-height: 401px ) and (max-height: 600px)
+                //background: green
+                margin-top: 65px
+            @media ( min-height: 601px )
+                //background: pink
+                margin-top: 120px
+            
+    .btn-wrapper
+        max-width: 25em
+        display: flex
+        flex-direction: column
+        padding: 1em
+        text-align: center
+        @include breakpoint-up(medium)
+            @media ( min-height: 201px ) and (max-height: 400px)
+                //background: orange
+                margin-top: 62px
+            @media ( min-height: 401px ) and (max-height: 600px)
+                //background: green
+                margin-top: 100px
+            @media ( min-height: 601px )
+                //background: pink
+                margin-top: 165px
+
 
 body#taller-marzo-22 section#masthead
-    background-color: $theme-soft
-    min-height: calc( 100vh - 50px )
+    background: url("../img/misc/foto-taller-hz.jpg")
+    background-size: cover
+    background-position-y: 60% 
+    min-height: 13em
     margin-top: 46px
-
+    h1.logo-abbr, h1.logo-full, .brand-descrip
+        color: $theme-soft
+    .logo-wrapper
+        @include breakpoint-down(small)
+        font-size: 12px!important
+        margin-top: 3em
+        @include breakpoint-up(medium)
+            font-size: 16px!important
+            margin-top: 1em
