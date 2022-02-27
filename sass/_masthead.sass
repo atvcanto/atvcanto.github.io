@@ -1,10 +1,17 @@
 section#masthead
     background-color: $theme-soft
-    display: flex
-    justify-content: center /* align horizontal */
-    align-items: center /* align vertical */
-    flex-direction: column
-    height: 100vh
+    //display: flex
+    //justify-content: center /* align horizontal */
+    //align-items: center /* align vertical */
+    //flex-direction: column
+    //height: 100vh
+    min-height: calc( 100vh - 50px )
+    margin-top: 46px
+
+    .wrapper
+        justify-content: center
+        //align-items: center
+        
 
     .img-container
         display: flex
@@ -17,6 +24,23 @@ section#masthead
             //width: 37vw
         //@media(max-width: 899px)
             //width: 50vw
+    .logo-wrapper
+        //background: #d2bde7
+        padding: 1em
+        @include breakpoint-down(small)
+            margin-top: 2em
+        @include breakpoint-up(medium)
+            margin-top: 8em
+    .btn-wrapper
+        //background: #bde7d6
+        max-width: 25em
+        display: flex
+        flex-direction: column
+        padding: 1em
+        text-align: center
+        @include breakpoint-up(medium)
+            margin-top: 10em
+
     h1.logo-abbr
         font-family: 'Barlow Semi Condensed', sans-serif
         font-size: 6.5em

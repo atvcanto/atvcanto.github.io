@@ -117,6 +117,27 @@ h2 {
   color: #17A2AF;
 }
 
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+@media (max-width: 39.9375em) {
+  .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .row {
   padding-left: 1.5em;
   padding-right: 1.5em;
@@ -150,6 +171,34 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.btn {
+  padding: 0.7em 1.3em;
+  border-radius: 7px;
+  font-weight: 400;
+  margin-bottom: 0.5em;
+}
+.btn:hover {
+  font-weight: 400;
+}
+.btn-regular {
+  border: 2px solid #17A2AF;
+  color: #17A2AF;
+}
+.btn-regular:hover {
+  color: #F1F0F0;
+  background: #17A2AF;
+  border: 2px solid #17A2AF;
+}
+.btn-accent {
+  border: 2px solid #ff3978;
+  background: #ff3978;
+  color: #F1F0F0;
+}
+.btn-accent:hover {
+  border: 2px solid #ff5389;
+  background: #ff5389;
 }
 
 @media (max-width: 39.9375em) {
@@ -313,20 +362,13 @@ section {
 
 section#masthead {
   background-color: #F1F0F0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  min-height: calc( 100vh - 50px );
+  margin-top: 46px;
+}
+section#masthead .wrapper {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  height: 100vh;
 }
 section#masthead .img-container {
   display: -webkit-box;
@@ -339,6 +381,36 @@ section#masthead .img-container {
 }
 section#masthead img.logo {
   width: 9em;
+}
+section#masthead .logo-wrapper {
+  padding: 1em;
+}
+@media (max-width: 39.9375em) {
+  section#masthead .logo-wrapper {
+    margin-top: 2em;
+  }
+}
+@media (min-width: 40em) {
+  section#masthead .logo-wrapper {
+    margin-top: 8em;
+  }
+}
+section#masthead .btn-wrapper {
+  max-width: 25em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1em;
+  text-align: center;
+}
+@media (min-width: 40em) {
+  section#masthead .btn-wrapper {
+    margin-top: 10em;
+  }
 }
 section#masthead h1.logo-abbr {
   font-family: "Barlow Semi Condensed", sans-serif;
@@ -409,10 +481,10 @@ section#contact h2 {
 }
 
 section.footer {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   margin: 0;
   padding: 10px;
-  background: #495055;
+  background: #4d4d4d;
   color: white;
 }
 section.footer p {
