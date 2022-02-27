@@ -84,6 +84,7 @@ html {
   scroll-behavior: smooth;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  color: #666666;
 }
 
 .body {
@@ -375,9 +376,6 @@ section#masthead .img-container {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-section#masthead img.logo {
-  width: 9em;
-}
 section#masthead .logo-wrapper {
   padding: 1em;
 }
@@ -458,6 +456,18 @@ section#masthead .arrow {
   font-size: 1.6em;
   margin-top: 1em;
   color: #ff3978;
+}
+
+body#home section#masthead {
+  background-color: #F1F0F0;
+  min-height: calc( 100vh - 50px );
+  margin-top: 46px;
+}
+
+body#taller-marzo-22 section#masthead {
+  background-color: #F1F0F0;
+  min-height: calc( 100vh - 50px );
+  margin-top: 46px;
 }
 
 section#about {
