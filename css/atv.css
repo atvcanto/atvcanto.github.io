@@ -439,45 +439,32 @@ section#masthead .arrow {
   color: #ff3978;
 }
 
-section#contact {
+section#about {
   padding: 110px 20px;
-  background: #fff;
+  background: #fdfdfd;
   color: #666666;
-  text-align: center;
   line-height: 1.3em;
 }
-section#contact .link-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 0.5rem;
-}
-section#contact .link-wrapper svg {
-  margin-right: 0.3rem;
-  width: 1.5rem;
-}
-section#contact .link-wrapper-whatsapp p {
-  padding-top: 0.125rem;
-}
-section#contact h2 {
-  font-size: 24px;
-  max-width: 29rem;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 35px;
-  line-height: 1.3em;
+@media (min-width: 40em) {
+  section#about .wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
 }
 @media (max-width: 39.9375em) {
-  section#contact h2 {
-    font-size: 1.125rem;
+  section#about .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
+}
+section#about .text-wrapper {
+  background: pink;
+  text-align: left;
+  max-width: 20em;
 }
 
 section.footer {
