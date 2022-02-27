@@ -391,6 +391,21 @@ section#masthead .logo-wrapper {
     margin-top: 8em;
   }
 }
+@media (min-width: 40em) and (min-height: 201px) and (max-height: 400px) {
+  section#masthead .logo-wrapper {
+    margin-top: 10vh;
+  }
+}
+@media (min-width: 40em) and (min-height: 401px) and (max-height: 600px) {
+  section#masthead .logo-wrapper {
+    margin-top: 15vh;
+  }
+}
+@media (min-width: 40em) and (min-height: 601px) {
+  section#masthead .logo-wrapper {
+    margin-top: 20vh;
+  }
+}
 section#masthead .btn-wrapper {
   max-width: 25em;
   display: -webkit-box;
@@ -403,9 +418,19 @@ section#masthead .btn-wrapper {
   padding: 1em;
   text-align: center;
 }
-@media (min-width: 40em) {
+@media (min-width: 40em) and (min-height: 201px) and (max-height: 400px) {
   section#masthead .btn-wrapper {
-    margin-top: 10em;
+    margin-top: 18vh;
+  }
+}
+@media (min-width: 40em) and (min-height: 401px) and (max-height: 600px) {
+  section#masthead .btn-wrapper {
+    margin-top: 22vh;
+  }
+}
+@media (min-width: 40em) and (min-height: 601px) {
+  section#masthead .btn-wrapper {
+    margin-top: 27vh;
   }
 }
 section#masthead h1.logo-abbr {

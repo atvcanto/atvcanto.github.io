@@ -25,12 +25,21 @@ section#masthead
         //@media(max-width: 899px)
             //width: 50vw
     .logo-wrapper
-        //background: #d2bde7
         padding: 1em
         @include breakpoint-down(small)
             margin-top: 2em
         @include breakpoint-up(medium)
             margin-top: 8em
+            @media ( min-height: 201px ) and (max-height: 400px)
+                //background: orange
+                margin-top: 10vh
+            @media ( min-height: 401px ) and (max-height: 600px)
+                //background: green
+                margin-top: 15vh
+            @media ( min-height: 601px )
+                //background: pink
+                margin-top: 20vh
+            
     .btn-wrapper
         //background: #bde7d6
         max-width: 25em
@@ -39,7 +48,15 @@ section#masthead
         padding: 1em
         text-align: center
         @include breakpoint-up(medium)
-            margin-top: 10em
+            @media ( min-height: 201px ) and (max-height: 400px)
+                //background: orange
+                margin-top: 18vh
+            @media ( min-height: 401px ) and (max-height: 600px)
+                //background: green
+                margin-top: 22vh
+            @media ( min-height: 601px )
+                //background: pink
+                margin-top: 27vh
 
     h1.logo-abbr
         font-family: 'Barlow Semi Condensed', sans-serif
