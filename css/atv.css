@@ -383,7 +383,7 @@ section#masthead .logo-wrapper {
 }
 @media (max-width: 39.9375em) {
   section#masthead .logo-wrapper {
-    margin-top: 2em;
+    margin-top: 3.5em;
   }
 }
 @media (min-width: 40em) {
@@ -393,17 +393,17 @@ section#masthead .logo-wrapper {
 }
 @media (min-width: 40em) and (min-height: 201px) and (max-height: 400px) {
   section#masthead .logo-wrapper {
-    margin-top: 10vh;
+    margin-top: 40px;
   }
 }
 @media (min-width: 40em) and (min-height: 401px) and (max-height: 600px) {
   section#masthead .logo-wrapper {
-    margin-top: 15vh;
+    margin-top: 65px;
   }
 }
 @media (min-width: 40em) and (min-height: 601px) {
   section#masthead .logo-wrapper {
-    margin-top: 20vh;
+    margin-top: 120px;
   }
 }
 section#masthead .btn-wrapper {
@@ -420,17 +420,17 @@ section#masthead .btn-wrapper {
 }
 @media (min-width: 40em) and (min-height: 201px) and (max-height: 400px) {
   section#masthead .btn-wrapper {
-    margin-top: 18vh;
+    margin-top: 62px;
   }
 }
 @media (min-width: 40em) and (min-height: 401px) and (max-height: 600px) {
   section#masthead .btn-wrapper {
-    margin-top: 22vh;
+    margin-top: 100px;
   }
 }
 @media (min-width: 40em) and (min-height: 601px) {
   section#masthead .btn-wrapper {
-    margin-top: 27vh;
+    margin-top: 165px;
   }
 }
 section#masthead h1.logo-abbr {
