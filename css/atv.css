@@ -252,6 +252,10 @@ section {
   cursor: pointer;
 }
 
+.logo-abbr, .logo-full, .brand-descrip {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
 .header.open {
   display: block;
 }
@@ -325,6 +329,7 @@ section {
   visibility: visible;
   font-size: 1rem;
   color: #17A2AF;
+  font-weight: bold;
 }
 .header__menu {
   background-color: #fff;
