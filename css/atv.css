@@ -557,6 +557,26 @@ section#about .text-wrapper p {
   margin-bottom: 0.5em;
 }
 
+section#social {
+  margin: 0;
+  padding: 10px;
+  background: #F1F0F0;
+  color: #17A2AF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: column;
+}
+section#social img {
+  padding: 0.7em;
+  width: 60px;
+}
+
 section.footer {
   font-size: 0.6rem;
   margin: 0;
