@@ -1,19 +1,32 @@
 section#about
-    padding: 110px 20px
+    padding: 3em 20px
     background: lighten($theme-soft, 5)
     color: $theme-dark
     //text-align: left
     line-height: 1.3em
 
     .wrapper
+        justify-content: center
         @include breakpoint-up(medium)
             flex-direction: row-reverse
         @include breakpoint-down(small)
             flex-direction: column
+    img
+        width: 276px
+        height: 244px
+        @include breakpoint-down(small)
+            margin-bottom: 1em
     .text-wrapper  
-        background: pink
-        text-align: left
+        //background: pink
         max-width: 20em
+        padding: 0 1em
+        @include breakpoint-up(medium)
+            text-align: left
+            margin-right: 2em
+        @include breakpoint-down(small)
+            text-align: center
+        p
+            margin-bottom: 0.5em
     
 
     
