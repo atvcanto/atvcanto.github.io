@@ -115,7 +115,9 @@ h1 {
 }
 
 h2 {
+  font-size: 1.2em;
   color: #17A2AF;
+  margin-bottom: 0.5em;
 }
 
 .wrapper {
@@ -564,4 +566,59 @@ section.footer {
 }
 section.footer p {
   text-align: center;
+}
+
+section#taller-main {
+  padding: 3em 20px;
+  background: #fdfdfd;
+  color: #666666;
+  line-height: 1.3em;
+}
+section#taller-main .wrapper {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media (min-width: 40em) {
+  section#taller-main .wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+}
+@media (max-width: 39.9375em) {
+  section#taller-main .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+section#taller-main img, section#taller-main video {
+  width: 190px;
+  height: 340px;
+}
+@media (max-width: 39.9375em) {
+  section#taller-main img, section#taller-main video {
+    margin-bottom: 1em;
+  }
+}
+section#taller-main .text-wrapper {
+  max-width: 20em;
+  padding: 0 1em;
+}
+@media (min-width: 40em) {
+  section#taller-main .text-wrapper {
+    text-align: left;
+    margin-right: 2em;
+  }
+}
+@media (max-width: 39.9375em) {
+  section#taller-main .text-wrapper {
+    text-align: center;
+  }
+}
+section#taller-main .text-wrapper p {
+  margin-bottom: 0.5em;
 }
