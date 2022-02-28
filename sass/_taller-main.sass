@@ -5,6 +5,15 @@ section#taller-main
     //text-align: left
     line-height: 1.3em
 
+    @include breakpoint-down(small)
+        .row
+            padding-left: 0
+            padding-right: 0
+            
+        .btn
+            font-size: 0.7em
+
+
     .wrapper
         justify-content: center
         @include breakpoint-up(medium)
@@ -27,6 +36,7 @@ section#taller-main
             text-align: center
         p
             margin-bottom: 0.5em
+    
     
     
 

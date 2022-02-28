@@ -594,6 +594,15 @@ section#taller-main {
   color: #666666;
   line-height: 1.3em;
 }
+@media (max-width: 39.9375em) {
+  section#taller-main .row {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  section#taller-main .btn {
+    font-size: 0.7em;
+  }
+}
 section#taller-main .wrapper {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
