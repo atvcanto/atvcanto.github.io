@@ -73,22 +73,22 @@
 
 @font-face {
   font-family: "loveloblack";
-  src: url("https://atvcanto.ar/fonts/lovelo-black-webfont.woff2") format("woff2");
-  src: url("https://atvcanto.ar/fonts/lovelo-black-webfont.woff") format("woff");
+  src: url("../fonts/lovelo-black-webfont.woff2") format("woff2");
+  src: url("../fonts/lovelo-black-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "loveloline_bold";
-  src: url("https://atvcanto.ar/fonts/lovelo-linebold-webfont.woff2") format("woff2");
-  src: url("https://atvcanto.ar/fonts/lovelo-linebold-webfont.woff") format("woff");
+  src: url("../fonts/lovelo-linebold-webfont.woff2") format("woff2");
+  src: url("../fonts/lovelo-linebold-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "loveloline_light";
-  src: url("https://atvcanto.ar/fonts/lovelo-linelight-webfont.woff2") format("woff2");
-  src: url("https://atvcanto.ar/fonts/lovelo-linelight-webfont.woff") format("woff");
+  src: url("../fonts/lovelo-linelight-webfont.woff2") format("woff2");
+  src: url("../fonts/lovelo-linelight-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
