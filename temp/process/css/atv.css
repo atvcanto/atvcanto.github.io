@@ -71,6 +71,27 @@
           animation: fade-out 300ms ease-in-out forwards;
 }
 
+@font-face {
+  font-family: "loveloblack";
+  src: url("https://atvcanto.ar/fonts/lovelo-black-webfont.woff2") format("woff2");
+  src: url("https://atvcanto.ar/fonts/lovelo-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "loveloline_bold";
+  src: url("https://atvcanto.ar/fonts/lovelo-linebold-webfont.woff2") format("woff2");
+  src: url("https://atvcanto.ar/fonts/lovelo-linebold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "loveloline_light";
+  src: url("https://atvcanto.ar/fonts/lovelo-linelight-webfont.woff2") format("woff2");
+  src: url("https://atvcanto.ar/fonts/lovelo-linelight-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   margin: 0;
   padding: 0;
@@ -79,7 +100,7 @@
 }
 
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Alegreya", serif;
   font-size: 27.5px;
   scroll-behavior: smooth;
   -webkit-box-sizing: border-box;
