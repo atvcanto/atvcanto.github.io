@@ -432,7 +432,7 @@ section {
   }
 }
 .header__links a {
-  font-size: 1rem;
+  font-size: 0.833rem;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -637,6 +637,7 @@ section#about .text-wrapper {
   }
 }
 section#about .text-wrapper p {
+  font-size: 1rem;
   margin-bottom: 0.5em;
 }
 
