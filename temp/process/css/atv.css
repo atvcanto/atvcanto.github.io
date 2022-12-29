@@ -139,7 +139,7 @@ h1 {
 h2 {
   font-family: "Lovelo", sans-serif;
   font-size: 1.2em;
-  color: #17A2AF;
+  color: #2BA191;
   margin-bottom: 0.5em;
 }
 
@@ -209,18 +209,18 @@ section {
   font-weight: 400;
 }
 .btn-regular {
-  border: 2px solid #17A2AF;
-  color: #17A2AF;
+  border: 2px solid #2BA191;
+  color: #2BA191;
 }
 .btn-regular:hover {
-  color: #F1F0F0;
-  background: #17A2AF;
-  border: 2px solid #17A2AF;
+  color: #F1F0F1;
+  background: #2BA191;
+  border: 2px solid #2BA191;
 }
 .btn-accent {
-  border: 2px solid #ff3978;
-  background: #ff3978;
-  color: #F1F0F0;
+  border: 2px solid #FF3978;
+  background: #FF3978;
+  color: #F1F0F1;
 }
 .btn-accent:hover {
   border: 2px solid #ff5389;
@@ -254,7 +254,7 @@ section {
 
 .modal-content {
   color: #666666;
-  background-color: #F1F0F0;
+  background-color: #F1F0F1;
   margin-top: 10%;
   margin-left: auto;
   margin-right: auto;
@@ -308,8 +308,8 @@ section {
   z-index: 10001;
 }
 .header nav {
-  background-color: #fff;
-  color: #17A2AF;
+  background-color: #FAFAFA;
+  color: #2BA191;
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
   position: fixed;
@@ -347,7 +347,7 @@ section {
   width: 6rem;
 }
 .header__textlogo {
-  color: #17A2AF;
+  color: #2BA191;
   text-align: center;
 }
 .header__textlogo .name {
@@ -371,7 +371,7 @@ section {
   display: block;
   width: 26px;
   height: 2px;
-  background: #F1F0F0;
+  background: #F1F0F1;
   -webkit-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
   -webkit-transform-origin: 3px 1px;
@@ -382,7 +382,7 @@ section {
 }
 .header .sticky {
   font-size: 12px;
-  background-color: #fff;
+  background-color: #FAFAFA;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -396,13 +396,13 @@ section {
 .header .sticky .header__textlogo {
   visibility: visible;
   font-size: 1rem;
-  color: #17A2AF;
+  color: #2BA191;
 }
 .header .sticky a {
   opacity: 100%;
 }
 .header__menu {
-  background-color: #F1F0F0;
+  background-color: #F1F0F1;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   position: absolute;
@@ -415,7 +415,7 @@ section {
 .header__menu a {
   display: block;
   padding: 0.625rem;
-  color: #17A2AF;
+  color: #2BA191;
   text-align: center;
 }
 .header__links {
@@ -443,7 +443,7 @@ section {
 }
 
 section#masthead {
-  background-color: #F1F0F0;
+  background-color: #F1F0F1;
   min-height: calc(100vh - 50px);
   margin-top: 46px;
 }
@@ -480,7 +480,7 @@ section#masthead h1.logo-abbr {
   font-family: "Barlow Semi Condensed", sans-serif;
   font-size: 6.5em;
   text-transform: none;
-  color: #17A2AF;
+  color: #2BA191;
   text-align: center;
 }
 section#masthead h1.logo-full {
@@ -488,7 +488,7 @@ section#masthead h1.logo-full {
   font-weight: 600;
   font-size: 2.2em;
   text-transform: none;
-  color: #17A2AF;
+  color: #2BA191;
   text-align: center;
 }
 section#masthead .brand-descrip {
@@ -500,11 +500,11 @@ section#masthead .brand-descrip {
 section#masthead .arrow {
   font-size: 1.6em;
   margin-top: 1em;
-  color: #ff3978;
+  color: #FF3978;
 }
 
 body#home section#masthead {
-  background-color: #F1F0F0;
+  background-color: #F1F0F1;
   min-height: calc(100vh - 50px);
   margin-top: 46px;
 }
@@ -572,7 +572,7 @@ body#taller-marzo-22 section#masthead {
   margin-top: 46px;
 }
 body#taller-marzo-22 section#masthead h1.logo-abbr, body#taller-marzo-22 section#masthead h1.logo-full, body#taller-marzo-22 section#masthead .brand-descrip {
-  color: #F1F0F0;
+  color: #F1F0F1;
 }
 body#taller-marzo-22 section#masthead .logo-wrapper {
   font-size: 12px !important;
@@ -644,8 +644,8 @@ section#about .text-wrapper p {
 section#social {
   margin: 0;
   padding: 10px;
-  background: #F1F0F0;
-  color: #17A2AF;
+  background: #F1F0F1;
+  color: #2BA191;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
