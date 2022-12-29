@@ -443,7 +443,7 @@ section {
 }
 
 section#masthead {
-  background-color: #F1F0F1;
+  background: url("../img/misc/taller-grupal-atv.jpg") !important;
   min-height: calc(100vh - 50px);
   margin-top: 46px;
 }
@@ -464,7 +464,7 @@ section#masthead .img-container {
 section#masthead .logo-wrapper {
   padding: 1em;
 }
-section#masthead .btn-wrapper {
+section#masthead .text-wrapper {
   max-width: 25rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -474,7 +474,7 @@ section#masthead .btn-wrapper {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 1rem;
-  text-align: center;
+  text-align: left;
 }
 section#masthead h1.logo-abbr {
   font-family: "Barlow Semi Condensed", sans-serif;
@@ -536,7 +536,7 @@ body#home section#masthead .logo-wrapper {
     margin-top: 120px;
   }
 }
-body#home section#masthead .btn-wrapper {
+body#home section#masthead .text-wrapper {
   max-width: 25em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -546,20 +546,20 @@ body#home section#masthead .btn-wrapper {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 1em;
-  text-align: center;
+  text-align: left;
 }
 @media (min-width: 40em) and (min-height: 201px) and (max-height: 400px) {
-  body#home section#masthead .btn-wrapper {
+  body#home section#masthead .text-wrapper {
     margin-top: 62px;
   }
 }
 @media (min-width: 40em) and (min-height: 401px) and (max-height: 600px) {
-  body#home section#masthead .btn-wrapper {
+  body#home section#masthead .text-wrapper {
     margin-top: 100px;
   }
 }
 @media (min-width: 40em) and (min-height: 601px) {
-  body#home section#masthead .btn-wrapper {
+  body#home section#masthead .text-wrapper {
     margin-top: 165px;
   }
 }
@@ -666,7 +666,7 @@ section.footer {
   margin: 0;
   padding: 10px;
   background: #4d4d4d;
-  color: #d8d6d6;
+  color: #d8d6d8;
 }
 section.footer p {
   text-align: center;
