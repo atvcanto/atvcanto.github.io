@@ -216,11 +216,20 @@ section {
           align-items: center;
 }
 
+.btn-wrapper {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+@media (max-width: 767px) {
+  .btn-wrapper {
+    margin-top: 2rem;
+  }
+}
+
 .btn {
   padding: 0.7em 1.3em;
   border-radius: 7px;
   font-weight: 400;
-  margin-bottom: 0.5em;
 }
 .btn:hover {
   font-weight: 400;
