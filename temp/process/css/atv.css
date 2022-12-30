@@ -146,6 +146,9 @@ h2 {
   margin-bottom: 0.5em;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin: 2rem auto 2rem auto;
 }
 
 .wrapper {
@@ -701,10 +704,6 @@ section.cards {
   background: #F1F0F1;
   padding-top: 2rem;
   padding-bottom: 4rem;
-}
-section.cards h2 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
 }
 section.cards .card-container {
   display: -webkit-box;
