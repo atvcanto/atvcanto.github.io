@@ -690,134 +690,131 @@ section.footer p {
 section.cards {
   min-height: 20rem;
   background: #F1F0F1;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
 }
 section.cards h2 {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-section.cards .card-wrapper .card {
-  list-style: none;
-  position: relative;
-  background-color: #FAFAFA;
-  margin: 0.6em;
-  padding: 0;
+section.cards .card-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  max-width: 30rem;
-  border-radius: 8px;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), -8px -8px 31px #f9f9f9;
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), -8px -8px 31px #f9f9f9;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
-section.cards .card-wrapper .card .portada {
-  display: block;
-  width: 18rem;
-  height: 100%;
-  background-position: bottom center;
-  background-size: cover;
-}
-section.cards .card-wrapper .card .portada-articulos {
-  background-image: url("../img/contenido/articulos-gratuitos-thumb.png") !important;
-}
-section.cards .card-wrapper .card:hover {
-  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-@media (max-width: 39.9375em) {
-  section.cards .card-wrapper .card {
-    padding: 1.5em 1.2em;
+@media (max-width: 767px) {
+  section.cards .card-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
   }
 }
-@media (min-width: 40em) {
-  section.cards .card-wrapper .card {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+@media (min-width: 768px) and (max-width: 991px) {
+  section.cards .card-container {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    width: 37.2em;
-    padding: 1.2em 1.2em 1.2em 1.2em;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
-section.cards .card-wrapper h5 {
-  color: #2BA191;
+@media (min-width: 992px) {
+  section.cards .card-container {
+    margin-left: 8vw;
+    margin-right: 8vw;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
 }
-section.cards .card-wrapper .img-wrapper {
-  padding: 0;
+section.cards a.main {
+  text-decoration: none;
+  color: inherit;
+}
+section.cards a::hover {
+  color: blue !important;
+  font-weight: normal !important;
+}
+section.cards .card {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  background: #fff;
+  min-height: 8rem;
+  max-width: 27rem;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-radius: 10px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  line-height: 1rem;
+  margin-bottom: 0.5rem;
+}
+@media (max-width: 767px) {
+  section.cards .card {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  section.cards .card {
+    min-width: 392px;
+  }
+}
+section.cards .card p {
+  margin-bottom: 0;
+}
+section.cards .card:hover {
+  -webkit-box-shadow: 5px 5px 12px rgba(34, 35, 58, 0.2);
+          box-shadow: 5px 5px 12px rgba(34, 35, 58, 0.2);
+}
+section.cards .card h2 {
+  font-size: 1.25em;
   margin: 0;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  padding: 0 1rem;
 }
-@media (min-width: 40em) {
-  section.cards .card-wrapper .img-wrapper {
-    min-width: 6.5rem;
-  }
+section.cards .card h3 {
+  font-size: 1rem;
+  margin-top: 0 !important;
+  margin-bottom: 0.2rem;
+  text-align: left;
 }
-section.cards .card-wrapper .img-wrapper img {
-  width: 4em;
+section.cards .card .desc {
+  font-size: 0.7rem;
 }
-@media (min-width: 40em) {
-  section.cards .card-wrapper .img-wrapper img {
-    width: 100%;
-  }
+section.cards .card .card-text {
+  display: -ms-grid;
+  display: grid;
+  width: 19rem;
+  text-align: left;
 }
-@media (max-width: 39.9375em) {
-  section.cards .card-wrapper .img-wrapper img {
-    width: 8rem;
-    margin-bottom: 0.7rem;
-  }
+section.cards .card .title-total {
+  padding: 1.5em 1em 1em 1em;
 }
-@media (min-width: 40em) {
-  section.cards .card-wrapper .info-wrapper {
-    text-align: left;
-    padding-left: 1em;
-  }
+section.cards .card .portada {
+  width: 12rem;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-position: bottom center;
+  background-size: cover;
 }
-@media (max-width: 39.9375em) {
-  section.cards .card-wrapper .info-wrapper {
-    text-align: center;
-  }
+section.cards .card .portada-articulos-gratuitos {
+  background-image: url("../img/contenido/articulos-gratuitos-thumb.png");
 }
-section.cards .card-wrapper .info-wrapper p {
-  line-height: 1.5;
-}
-section.cards .card-wrapper h3 {
-  font-size: 1.2rem;
-  font-weight: 600;
-  margin-top: 0.7rem;
-  margin-bottom: 0.7rem;
-}
-section.cards .card-wrapper a.main {
-  display: block;
-  z-index: 1;
-}
-section.cards .card-wrapper .card a.main::after {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  content: " ";
+section.cards .card .portada-guias {
+  background-image: url("../img/contenido/guias-thumb.png");
 }
 
 section#taller-main {
