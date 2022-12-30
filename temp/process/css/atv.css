@@ -156,6 +156,9 @@ h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 @media (max-width: 39.9375em) {
   .wrapper {
@@ -172,6 +175,12 @@ h2 {
 .row {
   padding-left: 1.5em;
   padding-right: 1.5em;
+}
+@media (max-width: 39.9375em) {
+  .row {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
 }
 
 section {
@@ -710,9 +719,9 @@ section.cards .card-container {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -webkit-box-pack: flex;
+        -ms-flex-pack: flex;
+            justify-content: flex;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -747,7 +756,7 @@ section.cards .card {
   transition: all 1s;
   background: #fff;
   min-height: 8rem;
-  max-width: 27rem;
+  max-width: 25rem;
   border-radius: 4px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -779,6 +788,7 @@ section.cards .card {
 }
 section.cards .card p {
   margin-bottom: 0;
+  line-height: 1.2rem;
 }
 section.cards .card:hover {
   -webkit-box-shadow: 5px 5px 12px rgba(34, 35, 58, 0.2);
@@ -807,12 +817,17 @@ section.cards .card .desc {
 section.cards .card .card-text {
   display: -ms-grid;
   display: grid;
-  width: 19rem;
-  text-align: left;
 }
 @media (max-width: 767px) {
   section.cards .card .card-text {
     text-align: center;
+    max-width: 19rem;
+  }
+}
+@media (min-width: 768px) {
+  section.cards .card .card-text {
+    text-align: left;
+    width: 19rem;
   }
 }
 section.cards .card .title-total {
