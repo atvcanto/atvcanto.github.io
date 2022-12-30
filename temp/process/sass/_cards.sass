@@ -42,6 +42,7 @@ section.cards
         @media (max-width: 767px)
             margin-left: auto
             margin-right: auto
+            flex-direction: column
             
         @media (min-width: 768px) and (max-width: 991px)
             min-width: 392px
@@ -64,7 +65,10 @@ section.cards
             font-size: 1rem
             margin-top: 0!important
             margin-bottom: 0.2rem
+            font-weight: bold
             text-align: left
+            @media (max-width: 767px)
+                text-align: center
 
         .desc 
             font-size: 0.7rem
@@ -75,6 +79,8 @@ section.cards
             display: grid
             width: 19rem
             text-align: left
+            @media (max-width: 767px)
+                text-align: center
 
 
         .title-total 
@@ -83,11 +89,17 @@ section.cards
 
 
         .portada 
-            width: 12rem
-            border-top-left-radius: 10px
-            border-bottom-left-radius: 10px
             background-position: bottom center
             background-size: cover
+            @media (min-width: 768px)
+                width: 12rem
+                border-top-left-radius: 10px
+                border-bottom-left-radius: 10px
+            @media (max-width: 767px)
+                border-top-left-radius: 10px
+                border-top-right-radius: 10px
+                height: 7rem
+                width: 100%
         .portada-articulos-gratuitos
             background-image: url("../img/contenido/articulos-gratuitos-thumb.png")
         .portada-guias
