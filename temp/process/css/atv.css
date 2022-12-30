@@ -786,6 +786,12 @@ section.cards .card {
     min-width: 392px;
   }
 }
+@media (min-width: 992px) {
+  section.cards .card {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+}
 section.cards .card p {
   margin-bottom: 0;
   line-height: 1.2rem;
