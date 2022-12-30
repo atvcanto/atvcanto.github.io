@@ -686,7 +686,7 @@ section#social img {
 
 section.footer {
   font-family: Source Sans Pro, sans-serif;
-  font-size: 0.6rem;
+  font-size: 0.833rem;
   margin: 0;
   padding: 10px;
   background: #4d4d4d;
@@ -769,7 +769,7 @@ section.cards .card {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   line-height: 1rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 @media (max-width: 767px) {
   section.cards .card {
