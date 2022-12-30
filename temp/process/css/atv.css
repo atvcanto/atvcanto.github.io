@@ -610,7 +610,7 @@ body#taller-marzo-22 section#masthead h1.logo-abbr, body#taller-marzo-22 section
 
 section#about {
   padding: 3em 20px;
-  background: #fdfdfd;
+  background: #F1F0F1;
   color: #666666;
   line-height: 1.3em;
 }
@@ -863,6 +863,98 @@ section.cards .card .portada-articulos-gratuitos {
 }
 section.cards .card .portada-guias {
   background-image: url("../img/contenido/guias-thumb.png");
+}
+
+section#clases-y-talleres {
+  padding: 3em 20px;
+  background: #FAFAFA;
+  color: #666666;
+  line-height: 1.3em;
+}
+section#clases-y-talleres .wrapper {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media (max-width: 787px) {
+  section#clases-y-talleres .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+@media (min-width: 788px) {
+  section#clases-y-talleres .wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+}
+section#clases-y-talleres img {
+  width: 276px;
+  height: 244px;
+}
+@media (max-width: 39.9375em) {
+  section#clases-y-talleres img {
+    margin-bottom: 1em;
+  }
+}
+section#clases-y-talleres .text-wrapper {
+  padding: 0 1em;
+}
+@media (min-width: 788px) {
+  section#clases-y-talleres .text-wrapper {
+    text-align: left;
+    margin-right: 2em;
+    max-width: 20em;
+  }
+}
+@media (max-width: 787px) {
+  section#clases-y-talleres .text-wrapper {
+    text-align: center;
+  }
+}
+section#clases-y-talleres .text-wrapper p {
+  font-size: 1rem;
+  margin-bottom: 0.5em;
+}
+section#clases-y-talleres .images-wrapper {
+  padding: 0;
+  display: absolute;
+}
+@media (max-width: 787px) {
+  section#clases-y-talleres .images-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8rem;
+    height: 15rem;
+  }
+}
+@media (min-width: 788px) {
+  section#clases-y-talleres .images-wrapper {
+    max-width: 13rem;
+  }
+}
+section#clases-y-talleres .images-wrapper img {
+  height: auto;
+  width: 100%;
+  margin-bottom: 0;
+}
+@media (min-width: 788px) {
+  section#clases-y-talleres .images-wrapper img:nth-child(2) {
+    position: relative;
+    -webkit-transform: translate3d(15%, -15%, 0);
+            transform: translate3d(15%, -15%, 0);
+  }
+}
+@media (max-width: 787px) {
+  section#clases-y-talleres .images-wrapper img:nth-child(2) {
+    position: relative;
+    -webkit-transform: translate3d(2rem, -3rem, 0);
+            transform: translate3d(2rem, -3rem, 0);
+  }
 }
 
 section#taller-main {

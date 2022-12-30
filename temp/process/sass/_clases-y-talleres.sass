@@ -1,0 +1,62 @@
+section#clases-y-talleres
+    padding: 3em 20px
+    background: $white
+    color: $dark
+    //text-align: left
+    line-height: 1.3em
+
+    .wrapper
+        justify-content: center
+        @media (max-width: 787px)
+            flex-direction: column
+        @media (min-width: 788px)
+            flex-direction: row-reverse
+    img
+        width: 276px
+        height: 244px
+        @include breakpoint-down(small)
+            margin-bottom: 1em
+    .text-wrapper  
+        //background: pink
+        padding: 0 1em
+        @media (min-width: 788px)
+            text-align: left
+            margin-right: 2em
+            max-width: 20em
+        @media (max-width: 787px)
+            text-align: center
+        p
+            font-size: $fz-p
+            margin-bottom: 0.5em
+    
+    .images-wrapper
+        padding: 0
+        display: absolute
+        @media (max-width: 787px)
+            margin-left: auto
+            margin-right: auto
+            width: 8rem
+            height: 15rem
+            //height: calc( 22rem - 3rem )
+            //height: calc(-5rem )
+        @media (min-width: 788px)
+            max-width: 13rem
+
+        
+        img
+            height: auto
+            width: 100%
+            margin-bottom: 0
+            @media (min-width: 788px)
+                &:nth-child(2)
+                    position: relative
+                    transform: translate3d(15%, -15%, 0)
+            @media (max-width: 787px)
+                &:nth-child(2)
+                    position: relative
+                    transform: translate3d(2rem, -3rem, 0)
+
+            
+                
+
+    // 639 a 787
