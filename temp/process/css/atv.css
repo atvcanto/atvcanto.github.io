@@ -701,8 +701,8 @@ section.footer {
   font-size: 0.833rem;
   margin: 0;
   padding: 10px;
-  background: #4d4d4d;
-  color: #d8d6d8;
+  background: #FAFAFA;
+  color: #666666;
 }
 section.footer p {
   text-align: center;
