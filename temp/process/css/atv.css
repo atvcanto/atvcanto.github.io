@@ -217,7 +217,7 @@ section {
 }
 
 .btn-wrapper {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   margin-bottom: 1rem;
 }
 @media (max-width: 767px) {
@@ -227,7 +227,7 @@ section {
 }
 
 .btn {
-  padding: 0.7em 1.3em;
+  padding: 0.6em 1.3em;
   border-radius: 7px;
   font-weight: 400;
 }
@@ -707,6 +707,9 @@ section.footer {
 }
 section.footer p {
   text-align: center;
+}
+section.footer a::hover {
+  color: green;
 }
 
 section.cards {
