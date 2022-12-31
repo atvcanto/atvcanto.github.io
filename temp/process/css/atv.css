@@ -679,7 +679,7 @@ section#about .text-wrapper p {
 section#social {
   margin: 0;
   padding: 10px;
-  background: #F1F0F1;
+  background: #FAFAFA;
   color: #2BA191;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -693,7 +693,8 @@ section#social {
 }
 section#social img {
   padding: 0.7em;
-  width: 60px;
+  width: 3rem;
+  height: auto;
 }
 
 section.footer {
@@ -701,7 +702,7 @@ section.footer {
   font-size: 0.833rem;
   margin: 0;
   padding: 10px;
-  background: #FAFAFA;
+  background: #F1F0F1;
   color: #666666;
 }
 section.footer p {
