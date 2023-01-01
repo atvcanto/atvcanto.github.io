@@ -623,6 +623,16 @@ body#taller-marzo-22 section#masthead h1.logo-abbr, body#taller-marzo-22 section
   }
 }
 
+section#masthead-sm {
+  height: 5rem;
+  margin-top: 68px;
+  color: #FAFAFA;
+  background: #2BA191;
+}
+section#masthead-sm h2 {
+  color: #FAFAFA;
+}
+
 section#about {
   padding-top: 3em;
   padding-bottom: 3em;
