@@ -676,9 +676,17 @@ section#about .text-wrapper p {
   margin-bottom: 0.5em;
 }
 
+section#contact {
+  padding-top: 1rem;
+  color: #666666;
+  background: #FAFAFA;
+  text-align: center;
+}
+
 section#social {
   margin: 0;
   padding: 10px;
+  padding-bottom: 3rem;
   background: #FAFAFA;
   color: #2BA191;
   display: -webkit-box;
