@@ -127,6 +127,10 @@ strong {
   font-weight: bold;
 }
 
+em {
+  font-style: italic;
+}
+
 p {
   line-height: 1.5rem;
 }
@@ -639,6 +643,10 @@ section#about {
   background: #F1F0F1;
   color: #666666;
   line-height: 1.3em;
+}
+section#about a {
+  font-weight: bold;
+  color: #2BA191;
 }
 section#about .wrapper {
   -webkit-box-pack: center;
