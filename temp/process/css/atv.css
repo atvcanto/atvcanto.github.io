@@ -181,8 +181,8 @@ h2 {
 }
 @media (max-width: 39.9375em) {
   .row {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
   }
 }
 
@@ -621,7 +621,8 @@ body#taller-marzo-22 section#masthead h1.logo-abbr, body#taller-marzo-22 section
 }
 
 section#about {
-  padding: 3em 20px;
+  padding-top: 3em;
+  padding-bottom: 3em;
   background: #F1F0F1;
   color: #666666;
   line-height: 1.3em;
@@ -669,6 +670,7 @@ section#about .text-wrapper {
 @media (max-width: 39.9375em) {
   section#about .text-wrapper {
     text-align: center;
+    padding: 0;
   }
 }
 section#about .text-wrapper p {
@@ -886,7 +888,8 @@ section.cards .card .portada-guias {
 }
 
 section#clases-y-talleres {
-  padding: 3em 20px;
+  padding-top: 3em;
+  padding-bottom: 3em;
   background: #FAFAFA;
   color: #666666;
   line-height: 1.3em;
