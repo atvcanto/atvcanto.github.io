@@ -72,23 +72,26 @@
 }
 
 @font-face {
-  font-family: "loveloblack";
+  font-family: "Lovelo black";
   src: url("../fonts/lovelo-black-webfont.woff2") format("woff2");
   src: url("../fonts/lovelo-black-webfont.woff") format("woff");
+  src: url("../fonts/lovelo-black-webfont.otf") format("otf");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "loveloline_bold";
+  font-family: "Lovelo Bold";
   src: url("../fonts/lovelo-linebold-webfont.woff2") format("woff2");
   src: url("../fonts/lovelo-linebold-webfont.woff") format("woff");
+  src: url("../fonts/lovelo-linebold-webfont.otf") format("otf");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "loveloline_light";
+  font-family: "Lovelo Light";
   src: url("../fonts/lovelo-linelight-webfont.woff2") format("woff2");
   src: url("../fonts/lovelo-linelight-webfont.woff") format("woff");
+  src: url("../fonts/lovelo-linelight-webfont.otf") format("otf");
   font-weight: normal;
   font-style: normal;
 }
@@ -129,7 +132,7 @@ p {
 }
 
 h1 {
-  font-family: "Lovelo", sans-serif;
+  font-family: "Lovelo Bold", "Lovelo", sans-serif;
   font-weight: bold;
   font-size: 1.56rem;
 }
@@ -140,7 +143,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Lovelo", sans-serif;
+  font-family: "Lovelo Bold", "Lovelo", sans-serif;
   font-size: 1.2em;
   color: #2BA191;
   margin-bottom: 0.5em;
