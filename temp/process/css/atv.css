@@ -197,6 +197,25 @@ section {
   scroll-margin-top: 51px;
 }
 
+section.rg-center {
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+@media (min-width: 40em) {
+  section.rg-center .wrapper {
+    max-width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+section.rg-center-white {
+  background: #FAFAFA;
+}
+section.rg-center-soft {
+  background: #F1F0F1;
+}
+
 .container {
   padding-left: 20px;
   padding-right: 20px;

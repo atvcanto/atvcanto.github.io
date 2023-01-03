@@ -100,6 +100,21 @@ h2
 section
     scroll-margin-top: 51px // navbar height
 
+section.rg-center
+    text-align: center
+    padding-top: 1rem
+    padding-bottom: 2rem 
+    @include breakpoint-up(medium)
+        .wrapper
+            max-width: 25rem
+            margin-left: auto
+            margin-right: auto
+
+    &-white
+        background: $white
+    &-soft
+        background: $soft
+
 
 // spacing
 .container
