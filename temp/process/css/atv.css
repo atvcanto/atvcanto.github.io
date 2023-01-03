@@ -236,14 +236,14 @@ section {
 .btn {
   padding: 0.6em 1.3em;
   border-radius: 7px;
-  font-weight: 400;
+  font-weight: 400 !important;
 }
 .btn:hover {
   font-weight: 400;
 }
 .btn-regular {
   border: 2px solid #2BA191;
-  color: #2BA191;
+  color: #2BA191 !important;
 }
 .btn-regular:hover {
   color: #F1F0F1;
@@ -253,7 +253,7 @@ section {
 .btn-accent {
   border: 2px solid #FF3978;
   background: #FF3978;
-  color: #F1F0F1;
+  color: #F1F0F1 !important;
 }
 .btn-accent:hover {
   border: 2px solid #ff5389;
