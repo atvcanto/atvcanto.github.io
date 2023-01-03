@@ -731,6 +731,7 @@ section#social img {
 section.footer {
   font-family: Source Sans Pro, sans-serif;
   font-size: 0.833rem;
+  opacity: 90%;
   margin: 0;
   padding: 10px;
   background: #F1F0F1;
@@ -738,9 +739,6 @@ section.footer {
 }
 section.footer p {
   text-align: center;
-}
-section.footer a::hover {
-  color: green;
 }
 
 section.cards {
