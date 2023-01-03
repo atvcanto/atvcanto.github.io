@@ -135,6 +135,13 @@ p {
   line-height: 1.5rem;
 }
 
+ul, li {
+  line-height: 1.2rem;
+}
+ul:first-child, li:first-child {
+  margin-top: 0.3rem;
+}
+
 h1 {
   font-family: "Lovelo Bold", "Lovelo", sans-serif;
   font-weight: bold;
@@ -156,6 +163,14 @@ h2 {
   margin-top: 2rem;
   margin-bottom: 2rem;
   margin: 2rem auto 2rem auto;
+}
+
+h3 {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+h3:first-child {
+  margin-top: 0;
 }
 
 .wrapper {
@@ -201,9 +216,13 @@ section.rg-center {
   text-align: center;
   padding-top: 1rem;
   padding-bottom: 2rem;
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
 }
 @media (min-width: 40em) {
-  section.rg-center .wrapper {
+  section.rg-center .wrapper-column {
     max-width: 25rem;
     margin-left: auto;
     margin-right: auto;

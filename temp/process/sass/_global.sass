@@ -63,6 +63,12 @@ em
 p
     line-height: 1.5rem
 
+ul, li
+    line-height: 1.2rem
+    &:first-child
+        margin-top: 0.3rem
+        
+
 h1
     //text-transform: uppercase
     font-family: 'Lovelo Bold','Lovelo', sans-serif
@@ -81,6 +87,15 @@ h2
     margin-top: 2rem
     margin-bottom: 2rem
     margin: 2rem auto 2rem auto
+
+h3
+    font-weight: bold
+    margin-top: 1rem
+    &:first-child
+        margin-top: 0
+
+ul
+    // decoration
 
 .wrapper
     display: flex
@@ -104,8 +119,9 @@ section.rg-center
     text-align: center
     padding-top: 1rem
     padding-bottom: 2rem 
+    flex-direction: column!important
     @include breakpoint-up(medium)
-        .wrapper
+        .wrapper-column
             max-width: 25rem
             margin-left: auto
             margin-right: auto
