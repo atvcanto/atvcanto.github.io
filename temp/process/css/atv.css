@@ -136,10 +136,16 @@ p {
 }
 
 ul, li {
-  line-height: 1.2rem;
+  line-height: 1.5rem;
 }
 ul:first-child, li:first-child {
   margin-top: 0.3rem;
+}
+
+ul span.arrow-bullet {
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: #2BA191;
 }
 
 h1 {
