@@ -1002,27 +1002,6 @@ body.articulo .article-main img {
   }
 }
 
-section.reg-soft-section {
-  padding: 110px 20px;
-  color: #666666;
-  background: #F1F0F1;
-}
-
-section.reg-white-section {
-  padding: 110px 20px;
-  color: #666666;
-  background: #FAFAFA;
-}
-
-.reg-center {
-  text-align: center;
-}
-.reg-center img {
-  margin-left: 0;
-  margin-right: 0;
-  display: block;
-}
-
 section#clases-y-talleres {
   padding-top: 3em;
   padding-bottom: 3em;
