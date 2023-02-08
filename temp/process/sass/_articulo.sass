@@ -3,16 +3,31 @@ body.articulo
     .article-main
         padding-top: 60px
         padding-bottom: 60px
+        background: $soft
+        .row
+            @media (min-width: 601px)
+                //background: yellow
+                padding-left: 12rem
+                padding-right: 12rem
         .wrapper
             //background: pink
             display: flex
             flex-direction: column
             justify-content: center
             text-align: center
+            
         
         img
             margin: 1rem auto
             @media (max-width: 600px)
                 max-width: 90%
             @media (min-width: 601px)
-                max-width: 17rem
+                max-width: 22rem
+
+        span.more-info
+            background: lighten(#f5bf49 , 15)
+            padding: 0.7rem
+            margin: 0.5rem 3rem
+            border-radius: 0.5rem
+            a
+                font-weight: bold

@@ -974,6 +974,13 @@ section.cards .card .portada-guias {
 body.articulo .article-main {
   padding-top: 60px;
   padding-bottom: 60px;
+  background: #F1F0F1;
+}
+@media (min-width: 601px) {
+  body.articulo .article-main .row {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
 }
 body.articulo .article-main .wrapper {
   display: -webkit-box;
@@ -998,8 +1005,17 @@ body.articulo .article-main img {
 }
 @media (min-width: 601px) {
   body.articulo .article-main img {
-    max-width: 17rem;
+    max-width: 22rem;
   }
+}
+body.articulo .article-main span.more-info {
+  background: #f9d992;
+  padding: 0.7rem;
+  margin: 0.5rem 3rem;
+  border-radius: 0.5rem;
+}
+body.articulo .article-main span.more-info a {
+  font-weight: bold;
 }
 
 section#clases-y-talleres {
