@@ -672,8 +672,10 @@ body#taller-marzo-22 section#masthead h1.logo-abbr, body#taller-marzo-22 section
 }
 
 section#masthead-sm {
-  height: 5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   margin-top: 68px;
+  text-align: center;
   color: #FAFAFA;
   background: #2BA191;
 }
@@ -1015,10 +1017,19 @@ body.articulo .article-main img {
   }
 }
 body.articulo .article-main span.more-info {
-  background: #f9d992;
+  background: #fbe6b8;
+  line-height: 1.2rem;
+  font-size: 0.85rem;
   padding: 0.7rem;
-  margin: 0.5rem 3rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
   border-radius: 0.5rem;
+}
+@media (min-width: 601px) {
+  body.articulo .article-main span.more-info {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
 }
 body.articulo .article-main span.more-info a {
   font-weight: bold;
