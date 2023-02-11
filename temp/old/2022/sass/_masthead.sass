@@ -1,7 +1,5 @@
 section#masthead
-    //background-color: $soft
-    background: url("../img/misc/taller-grupal-atv.jpg") !important
-    background-size: cover!important
+    background-color: $theme-soft
     min-height: calc( 100vh - 50px )
     margin-top: 46px
 
@@ -18,18 +16,27 @@ section#masthead
         padding: 1em
         
 
+            
+    .btn-wrapper
+        max-width: 25rem
+        display: flex
+        flex-direction: column
+        padding: 1rem
+        text-align: center
+
+
     h1.logo-abbr
         font-family: 'Barlow Semi Condensed', sans-serif
         font-size: 6.5em
         text-transform: none
-        color: $primary
+        color: $theme-primary
         text-align: center
     h1.logo-full
         font-family: 'Barlow Semi Condensed', sans-serif
         font-weight: 600
         font-size: 2.2em
         text-transform: none
-        color: $primary
+        color: $theme-primary
         text-align: center
 
     .brand-descrip
@@ -41,55 +48,47 @@ section#masthead
     .arrow
         font-size: 1.6em
         margin-top: 1em
-        color: $accent
+        color: $theme-accent
 
 
 
 body#home section#masthead
-    background-color: $soft
+    background-color: $theme-soft
     min-height: calc( 100vh - 50px )
     margin-top: 46px
 
     .logo-wrapper
         padding: 1em
-        img
-            width: 100%
         @include breakpoint-down(small)
             margin-top: 3.5em
-            width: 11rem
         @include breakpoint-up(medium)
             margin-top: 8em
-            @media ( min-width: 201px ) and (max-width: 400px)
+            @media ( min-height: 201px ) and (max-height: 400px)
+                //background: orange
                 margin-top: 40px
-            @media ( min-width: 401px ) and (max-width: 600px)
-                //margin-top: 65px
-            @media ( min-width: 601px ) and (max-width: 999px)
+            @media ( min-height: 401px ) and (max-height: 600px)
+                //background: green
+                margin-top: 65px
+            @media ( min-height: 601px )
+                //background: pink
                 margin-top: 120px
-                //width: 14rem
-                padding-right: 1rem
-            @media ( min-width: 1000px )
-                margin-top: 120px
-                padding-right: 2rem
             
-    .text-wrapper
-        max-width: 22em
+    .btn-wrapper
+        max-width: 25em
         display: flex
         flex-direction: column
         padding: 1em
-        text-align: left    
-        p
-            margin-bottom: 0.5rem
-            span
-                background: rgb(255 255 255 / 40%)
-        @media ( min-height: 201px ) and (max-height: 400px)
-            margin-top: 62px
-        @media ( min-height: 401px ) and (max-height: 600px)
-            margin-top: 100px
-        @media ( min-height: 601px )
-            margin-top: 127px
-        @include breakpoint-down(small)
-            text-align: center
-            margin-top: 0
+        text-align: center
+        @include breakpoint-up(medium)
+            @media ( min-height: 201px ) and (max-height: 400px)
+                //background: orange
+                margin-top: 62px
+            @media ( min-height: 401px ) and (max-height: 600px)
+                //background: green
+                margin-top: 100px
+            @media ( min-height: 601px )
+                //background: pink
+                margin-top: 165px
 
 
 body#taller-marzo-22 section#masthead
@@ -99,24 +98,11 @@ body#taller-marzo-22 section#masthead
     min-height: 13em
     margin-top: 46px
     h1.logo-abbr, h1.logo-full, .brand-descrip
-        color: $soft
+        color: $theme-soft
     .logo-wrapper
         @include breakpoint-down(small)
-            font-size: 12px!important
-            margin-top: 3em
+        font-size: 12px!important
+        margin-top: 3em
         @include breakpoint-up(medium)
             font-size: 16px!important
             margin-top: 1em
-
-
-section#masthead-sm
-    //height: 5rem
-    padding-left: 1rem
-    padding-right: 1rem
-    margin-top: 68px
-    text-align: center
-    color: $white
-    background: $primary
-
-    h2
-        color: $white

@@ -14,44 +14,69 @@
         //display: none
         opacity: 0
         position: fixed
-        top: 3.1875rem
+        top: 0 //3.1875rem
         right: 0
         bottom: 0
         left: 0
-        //background-color: $theme-dark-40
-        background-image: linear-gradient($theme-dark-20, transparent)
+        background-image: linear-gradient($dark, transparent)
+        z-index: 10001
 
 
     nav
-        background-color: $theme-soft
-        padding-top: 15px 
-        padding-bottom: 15px 
+        background-color: $white
+        //opacity: 0.3
+        color: $primary
+        padding-top: 0.8rem
+        padding-bottom: 0.8rem
         position: fixed
         top: 0
         left: 0
         width: 100%
         transition: 0.6s
-        z-index: 10000
+        z-index: 10005
+        .nav-wrapper
+            margin-left: auto
+            margin-right: auto   
+            @media (max-width: 1100px)
+                padding-left: 20px
+                padding-right: 20px
+            @media (min-width: 1101px) and (max-width: 1400px)
+                max-width: 1100px
+            @media (min-width: 1401px)
+                max-width: 1200px
+
+        a
+            //opacity: 80%
+            &:hover
+                opacity: 100%
+                //color: #fff
 
     &__logo
-        width: 1px
-        visibility: hidden
-        transition: 0.6s
+        img
+            width: 6rem
+
 
     &__textlogo
-        font-size: 0.000009rem
-        visibility: hidden
-        transition: 0.6s
-        color: rgba(1, 1, 1, 0.01 )
+        color: $primary
+        text-align: center
+        .name
+            font-size: $fz-h3
+        .description
+            font-size: $fz-p
+            font-weight: 100
 
 
 
     &__toggle
+        @media (max-width: 819px)
+            display: block
+        @media (min-width: 820px)
+            display: none
         > span
             display: block
             width: 26px
             height: 2px
-            background: $theme-dark-40
+            background: $soft
             transition: all 200ms ease-in-out
             transform-origin: 3px 1px
 
@@ -60,38 +85,56 @@
 
         
     .sticky
-        background-color: #fff
+        font-size:12px
+        background-color: $white
+        padding-top: 10px 
+        padding-bottom: 10px 
         .header__logo
             visibility: visible
-            width: 80px
+            width: 6rem
+            img
+                width: 100%
+
         .header__textlogo
             visibility: visible
             font-size: 1rem
-            color: $theme-primary
-            font-weight: bold
+            color: $primary
+            
+        a
+            opacity: 100%
 
     &__menu
-        background-color: $white
-        //margin: 2rem 1.5rem // remplazado por position
+        background-color: $soft
         padding-top: 1.5rem
         padding-bottom: 1.5rem
         position: absolute
         border-radius: 5px
-        top: 4.5rem
+        top: 6.5rem
         right: 2rem
         left: 2rem
+        z-index: 10005
         
         a
             display: block
             padding: 0.625rem
-            color: $theme-dark
+            color: $primary
             text-align: center
 
     &__links
+        font-family: 'Lovelo', serif
+        @media (max-width: 819px)
+            display: none
+        @media (min-width: 820px)
+            display: inline
         a
-            font-size: $font-sm
+            font-size: $fz-small
             transition: 0.3s
             //font-weight: bold
-            &:not(:last-child)
-                margin-right: 16px
+            //&:not(:last-child)
+            //margin-right: 16px
+        
+        .slash
+            margin-right: 0.5rem
+            margin-left: 0.5rem
+            opacity: 0.5
                 

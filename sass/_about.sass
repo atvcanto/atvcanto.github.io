@@ -1,9 +1,13 @@
 section#about
-    padding: 3em 20px
-    background: lighten($theme-soft, 5)
-    color: $theme-dark
+    padding-top: 3em
+    padding-bottom: 3em
+    background: $soft
+    color: $dark
     //text-align: left
     line-height: 1.3em
+    a
+        font-weight: bold
+        color: $primary
 
     .wrapper
         justify-content: center
@@ -25,7 +29,9 @@ section#about
             margin-right: 2em
         @include breakpoint-down(small)
             text-align: center
+            padding: 0
         p
+            font-size: $fz-p
             margin-bottom: 0.5em
     
 

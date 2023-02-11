@@ -53,7 +53,7 @@
 			color: inherit;
 		}
 		a:hover, a:focus {
-			font-weight: bold;
+			/*font-weight: bold;*/
 			border: 0;
 		}
 
