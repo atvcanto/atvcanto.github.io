@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500&display=swap");
 .has-fade {
   visibility: hidden;
 }
@@ -71,30 +71,6 @@
           animation: fade-out 300ms ease-in-out forwards;
 }
 
-@font-face {
-  font-family: "Lovelo black";
-  src: url("../fonts/lovelo-black-webfont.woff2") format("woff2");
-  src: url("../fonts/lovelo-black-webfont.woff") format("woff");
-  src: url("../fonts/lovelo-black-webfont.otf") format("otf");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Lovelo Bold";
-  src: url("../fonts/lovelo-linebold-webfont.woff2") format("woff2");
-  src: url("../fonts/lovelo-linebold-webfont.woff") format("woff");
-  src: url("../fonts/lovelo-linebold-webfont.otf") format("otf");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Lovelo Light";
-  src: url("../fonts/lovelo-linelight-webfont.woff2") format("woff2");
-  src: url("../fonts/lovelo-linelight-webfont.woff") format("woff");
-  src: url("../fonts/lovelo-linelight-webfont.otf") format("otf");
-  font-weight: normal;
-  font-style: normal;
-}
 * {
   margin: 0;
   padding: 0;
@@ -103,7 +79,7 @@
 }
 
 html {
-  font-family: "Alegreya", serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 22px;
   scroll-behavior: smooth;
   -webkit-box-sizing: border-box;
@@ -149,8 +125,8 @@ ul span.arrow-bullet {
 }
 
 h1 {
-  font-family: "Lovelo Bold", "Lovelo", sans-serif;
-  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  font-weight: extrabold;
   font-size: 1.56rem;
 }
 @media (max-width: 39.9375em) {
@@ -160,7 +136,8 @@ h1 {
 }
 
 h2 {
-  font-family: "Lovelo Bold", "Lovelo", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
   font-size: 1.2em;
   color: #2BA191;
   margin-bottom: 0.5em;
@@ -418,6 +395,9 @@ section.rg-center-soft {
     max-width: 1200px;
   }
 }
+.header nav a {
+  font-weight: 500;
+}
 .header nav a:hover {
   opacity: 100%;
 }
@@ -497,7 +477,7 @@ section.rg-center-soft {
   text-align: center;
 }
 .header__links {
-  font-family: "Lovelo", serif;
+  font-family: "Open Sans", sans-serif;
 }
 @media (max-width: 819px) {
   .header__links {
@@ -515,8 +495,8 @@ section.rg-center-soft {
   transition: 0.3s;
 }
 .header__links .slash {
-  margin-right: 0.5rem;
-  margin-left: 0.5rem;
+  margin-right: 0.3rem;
+  margin-left: 0.3rem;
   opacity: 0.5;
 }
 
