@@ -833,8 +833,9 @@ section.cards .card-container {
   section.cards .card-container {
     margin-left: 8vw;
     margin-right: 8vw;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
   }
 }
 section.cards a.main {
@@ -981,8 +982,8 @@ body.articulo .article-main {
 }
 @media (min-width: 1201px) {
   body.articulo .article-main .row {
-    padding-left: 12rem;
-    padding-right: 12rem;
+    padding-left: 17rem;
+    padding-right: 17rem;
   }
 }
 body.articulo .article-main .wrapper {
