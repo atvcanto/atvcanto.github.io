@@ -669,6 +669,24 @@ section#masthead-sm h2 {
   color: #FAFAFA;
 }
 
+section.novedades {
+  background: #fbe6b8;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+section.novedades h2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 section.reg-soft-section {
   padding: 110px 20px;
   color: #666666;
