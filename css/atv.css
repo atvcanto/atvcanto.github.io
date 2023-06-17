@@ -986,6 +986,18 @@ section.cards .card .portada-5-palabras-que-te-pueden-servir-de-guia {
 section.cards .card .portada-imprescindibles-para-ensenar-y-aprender {
   background-image: url("../img/articulos/imprescindibles-para-ensenar-y-aprender.png");
 }
+section.cards .card .portada-la-ola-de-la-respiracion {
+  background-image: url("../img/articulos/la-ola-de-la-respiracion-2.png");
+}
+section.cards .card .portada-inter-relaciones-1-sistema-nervioso {
+  background-image: url("../img/articulos/interrelaciones-1-sistema-nervioso.jpg");
+}
+section.cards .card .portada-inter-relaciones-2-sistema-auditivo {
+  background-image: url("../img/articulos/interrelaciones-2-sistema-auditivo-1.png");
+}
+section.cards .card .portada-inter-relaciones-3-sistema-postural {
+  background-image: url("../img/articulos/interrelaciones-3-sistema-postural-2.jpg");
+}
 
 body.articulo .article-main {
   padding-top: 60px;
@@ -1016,6 +1028,12 @@ body.articulo .article-main .wrapper {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+}
+body.articulo .article-main a {
+  font-weight: bold;
+}
+body.articulo .article-main p {
+  margin-bottom: 0.5rem;
 }
 body.articulo .article-main img {
   margin: 1rem auto;
