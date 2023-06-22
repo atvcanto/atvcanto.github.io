@@ -97,6 +97,11 @@ html {
 
 a, a:visited, a:hover {
   text-decoration: none;
+  color: inherit;
+}
+
+section a, section a:visited, section a:hover {
+  color: #FF3978;
 }
 
 strong {
@@ -708,6 +713,10 @@ section.reg-white-section {
   display: block;
 }
 
+section.reg-soft-section a, section.reg-soft-section a:visited, section.reg-soft-section a:hover, section.reg-white-section a, section.reg-white-section a:visited, section.reg-white-section a:hover {
+  color: #FF3978 !important;
+}
+
 section#about {
   padding-top: 3em;
   padding-bottom: 3em;
@@ -810,6 +819,9 @@ section.footer {
 }
 section.footer p {
   text-align: center;
+}
+section.footer a, section.footer a:visited, section.footer a:hover {
+  color: inherit;
 }
 
 section.cards {
