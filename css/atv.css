@@ -663,15 +663,14 @@ body#taller-marzo-22 section#masthead h1.logo-abbr, body#taller-marzo-22 section
 }
 
 section#masthead-sm {
+  background: url("../img/misc/masthead-sm.jpg") !important;
+  background: #FAFAFA;
+  background-size: cover !important;
+  background-position-y: 90%;
   padding-left: 1rem;
   padding-right: 1rem;
   margin-top: 68px;
   text-align: center;
-  color: #FAFAFA;
-  background: #2BA191;
-}
-section#masthead-sm h2 {
-  color: #FAFAFA;
 }
 
 section.novedades {
