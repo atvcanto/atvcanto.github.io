@@ -863,9 +863,9 @@ section.cards .card-container {
   section.cards .card-container {
     margin-left: 8vw;
     margin-right: 8vw;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 section.cards a.main {
@@ -880,7 +880,7 @@ section.cards .card {
   -webkit-transition: all 1s;
   transition: all 1s;
   background: #fff;
-  min-height: 8rem;
+  min-height: 10rem;
   max-width: 25rem;
   border-radius: 4px;
   display: -webkit-box;
